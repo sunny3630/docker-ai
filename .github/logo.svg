@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Blue circular background, same as Docker -->
+    <circle cx="100" cy="100" r="100" fill="#2496ED" />
+
+    <!-- Whale Body, simplified and clean -->
+    <path d="M 25,100 C 25,75 40,60 65,60 L 145,60 C 165,60 175,75 175,90 L 175,110 C 175,125 165,140 145,140 L 65,140 C 40,140 25,125 25,100 Z" fill="#FFFFFF"/>
+    
+    <!-- Whale Tail -->
+    <path d="M175,90 C187,85 195,75 195,65" stroke="#FFFFFF" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M175,110 C187,115 195,125 195,135" stroke="#FFFFFF" stroke-width="18" fill="none" stroke-linecap="round"/>
+
+    <!-- 7-Infinity symbol on the back -->
+    <g transform="translate(10, -5)">
+        <!-- Infinity Loop -->
+        <path d="M 85,60 A 20,20 0 1,0 85,100 A 20,20 0 1,0 85,60" fill="#FFFFFF"/>
+        <path d="M 135,60 A 20,20 0 1,0 135,100 A 20,20 0 1,0 135,60" fill="#FFFFFF"/>
+        <!-- Bridge of infinity -->
+        <path d="M 85,80 l 50,0" stroke="#FFFFFF" stroke-width="41" stroke-linecap="round" />
+        
+        <!-- The "7", drawn in the primary blue color to stand out -->
+        <path d="M 75,65 H 100 L 82,95"
+        fill="none" 
+            stroke="#2496ED"
+            stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+    </g>
+</svg> 
